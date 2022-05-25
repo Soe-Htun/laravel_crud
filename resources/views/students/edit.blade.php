@@ -1,5 +1,5 @@
 @extends('students.layout')
-@section('content');
+@section('content')
 
 <div class="card" style="margin: 20px">
     <div class="card-header"> Edit Student </div>
