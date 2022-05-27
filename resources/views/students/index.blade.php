@@ -15,6 +15,13 @@
                         <br>
                         <br>
 
+                        {{-- this is for flash message and session message --}}
+                        @if(session('flash_message'))
+                            <div class="alert alert-info">
+                                {{ session('flash_message') }}
+                            </div>
+                        @endif
+
                         <div class="table-responsive">
                             <table class="table">
                                 <thead>
