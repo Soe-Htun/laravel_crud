@@ -15,7 +15,8 @@ use App\Http\Controllers\StudentController;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    // return view('welcome');
+    return redirect('/student');
 });
 
 Route::resource("/student", StudentController::class);
